@@ -15,4 +15,10 @@ router.get(
   }
 );
 
+router.get("/status", (req, res) => {
+  return req.user
+    ? res.send({ status: true, message: req.user })
+    : res.send({ status: false, message: "unautharized" });
+});
+
 export default router;
