@@ -1,0 +1,53 @@
+.serverCardContainer {
+  // border: 1px solid #d12b2b;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 80px 0;
+  margin: 0 auto;
+}
+
+.serverCard {
+  // border: 1px solid #d12b2b;
+  margin: 30px 15px;
+  align-items: center;
+  padding: 30px 50px;
+  background-color: #353535;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    cursor: pointer;
+    background-color: #4b4b4b;
+    scale: 1.03;
+  }
+}
+
+.serverCard > p {
+  padding: 3rem 0 0 0;
+}
+
+.serverCardIcon {
+  border-radius: 50%;
+}
+
+.serverCardIconNull {
+  border-radius: 50%;
+  height: 128px;
+  width: 128px;
+  background-color: #686868;
+  font-size: 5rem;
+}

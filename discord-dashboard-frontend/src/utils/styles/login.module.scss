@@ -1,0 +1,45 @@
+.heroContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.heroContainer > h1 {
+  font-size: 3rem;
+}
+.heroContainer > p {
+  font-size: 1rem;
+  font-weight: 300;
+  width: 50%;
+}
+
+.loginButton {
+  margin-top: 3rem;
+}
+
+.loginButton > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background-color: transparent;
+  color: #fff;
+  padding: 0.8em 2em;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  &:hover {
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+.loginButton > button > span {
+  margin-left: 1.5em;
+}
