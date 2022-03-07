@@ -7,7 +7,7 @@ type Props = {
   guild: Guild[];
 };
 
-export const GuildMenuItem: FC<Props> = ({ guild }) => {
+export const GuildMenuItem: FC<any> = ({ guild }) => {
   return (
     <div className={styles.serverCard}>
       {guild.icon ? (
